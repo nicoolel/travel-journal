@@ -11,8 +11,9 @@ body {
 .navbar {
   background: rgb(125, 155, 163);
   height: 10vh;
-  margin: 0 auto;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 1em 1em;
 }
 
@@ -34,7 +35,7 @@ body {
   border-radius: 10px 10px;
 }
 
-/* text for trip */
+/* trip details */
 
 .trip > h3 {
   font-weight: 600;
@@ -52,6 +53,7 @@ body {
 
 .location-details > span {
   margin-right: 20px;
+  text-transform: uppercase;
 }
 
 .location-details > a, .location-details > span {
